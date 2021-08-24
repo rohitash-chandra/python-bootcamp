@@ -24,3 +24,9 @@
 * https://www.programiz.com/python-programming/variables-constants-literals
 
 * https://www.programiz.com/python-programming/variables-datatypes
+
+* https://www.programiz.com/python-programming/function
+
+* https://www.programiz.com/python-programming/function-argument
+
+* https://www.programiz.com/python-programming/recursion
