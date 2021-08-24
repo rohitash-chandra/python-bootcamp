@@ -18,15 +18,15 @@ The goal of this bootcamp is to enable algorithmic thinking and problem solving 
 
 * [Session 1](session1): Friday 27th August, 11am to 1pm : Introduction to Python: Arrays (lists and numpy), Loops  (Exercise 1 given)
 * 			Weekend (work on Exercise 1)
-* Session 2:  Monday 30th August, 11am to 1pm: Functions and data processing (Solution to Exercise 1)
-* Session 3:  Tuesday 31st August, 11am to 1pm:  Design of Vending machine   (Exercise 2 given)
+* [Session 2](session2):  Monday 30th August, 11am to 1pm: Functions and data processing (Solution to Exercise 1)
+* [Session 3](session3):  Tuesday 31st August, 11am to 1pm:  Design of Vending machine   (Exercise 2 given)
 * 			Wednesday: 1st September: No class (work on Exercise 2)
-* Session 4: Thursday  2nd September, 11am to 1pm: Object-Oriented Programming (OOP)  (Solution to Exercise 2)
-* Session 5:  Friday 3rd September, 11am to 1pm:   Vending machine revisited with OOP (Exercise 3 given)
+* [Session 4](session4): Thursday  2nd September, 11am to 1pm: Object-Oriented Programming (OOP)  (Solution to Exercise 2)
+* [Session 5](session5):  Friday 3rd September, 11am to 1pm:   Vending machine revisited with OOP (Exercise 3 given)
 * 			Weekend (work on Exercise 3)
-* Session 6: Monday 6th September, 11am to 1pm:  Design of Algorithms (Solution to Exercise 3, Exercise 4 given)
+* [Session 6](session6): Monday 6th September, 11am to 1pm:  Design of Algorithms (Solution to Exercise 3, Exercise 4 given)
 * 			Tuesday  7th September, No class (work on Exercise 4)
-* Session 7: Wednesday: 8th September, 11am to 1pm:   Software design (Solution to  Exercise 4 )
+* [Session 7](session7): Wednesday: 8th September, 11am to 1pm:   Software design (Solution to  Exercise 4 )
 
 ## Resources
 * Software: Anaconda (Python 3.0) and Visual Studio Code:https://code.visualstudio.com/
