@@ -15,3 +15,12 @@
 * https://www.onlinegdb.com/online_python_compiler
 
 * https://replit.com/   
+
+## tutorial to follow
+* https://www.programiz.com/python-programming/keywords-identifier
+
+* https://www.programiz.com/python-programming/statement-indentation-comments
+
+* https://www.programiz.com/python-programming/variables-constants-literals
+
+* https://www.programiz.com/python-programming/variables-datatypes
