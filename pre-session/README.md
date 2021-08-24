@@ -6,9 +6,8 @@
 * [linux](https://www.youtube.com/watch?v=WFswV4J2ZEs)
 
 * [vs-code basics](https://www.youtube.com/watch?v=ORrELERGIHs)
-
-* (intro github) https://www.youtube.com/watch?v=w3jLJU7DT5E 
-* (github via gitkrekin) https://www.youtube.com/watch?v=ub9GfRziCtU
+* [intro github](https://www.youtube.com/watch?v=w3jLJU7DT5E)
+* [github via gitkrekin](https://www.youtube.com/watch?v=ub9GfRziCtU)
  
 
 ## online interpreters you can use for the bootcamp:
