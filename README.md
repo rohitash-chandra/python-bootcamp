@@ -37,4 +37,9 @@ The goal of this bootcamp is to enable algorithmic thinking and problem solving 
 ## Instructor
 * Dr Rohitash Chandra, UNSW Sydney (c.rohitash@gmail.com or rohitash.chandra@unse.edu.au)
 
-The resources from this bootcamp is attributed to the [Transitional Artificial Intelligence Reserach Group](https://trans-ai.github.io/). Examples of Open Source Software developed for research purpose can be found at [Software Portfolio](https://rohitash-chandra.github.io/portfolio/)
+The resources from this bootcamp is part of  the [Transitional Artificial Intelligence Reserach Group](https://trans-ai.github.io/). Examples of Open Source Software developed for research purpose can be found at [Software Portfolio](https://rohitash-chandra.github.io/portfolio/)
+
+## Acknowledgements
+
+* Dr Pavel Kritvisky, UNSW Sydney (bootcamp planning and review)
+* Prof. Christian Omlin, University of Agder, Norway (development of certain worksheets and exercises)
