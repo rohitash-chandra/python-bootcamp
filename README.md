@@ -14,9 +14,9 @@ The goal of this bootcamp is to enable algorithmic thinking and problem solving 
 
 ## Schedule (Sydney time): 
 
-* Pre-session: Wednesday 25th August, 2021,  5pm - 6 pm, Introductory Webinar
+* [Pre-session](pre-session): Wednesday 25th August, 2021,  5pm - 6 pm, Introductory Webinar
 
-* Session 1: Friday 27th August, 11am to 1pm : Introduction to Python: Arrays (lists and numpy), Loops  (Exercise 1 given)
+* [Session 1](session1): Friday 27th August, 11am to 1pm : Introduction to Python: Arrays (lists and numpy), Loops  (Exercise 1 given)
 * 			Weekend (work on Exercise 1)
 * Session 2:  Monday 30th August, 11am to 1pm: Functions and data processing (Solution to Exercise 1)
 * Session 3:  Tuesday 31st August, 11am to 1pm:  Design of Vending machine   (Exercise 2 given)
@@ -41,5 +41,5 @@ The resources from this bootcamp is part of  the [Transitional Artificial Intell
 
 ## Acknowledgements
 
-* Dr Pavel Kritvisky, UNSW Sydney (bootcamp planning and review)
+* Dr Pavel Krivitsky, UNSW Sydney (bootcamp planning and review)
 * Prof. Christian Omlin, University of Agder, Norway (development of certain worksheets and exercises)
