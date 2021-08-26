@@ -2,12 +2,14 @@
  
 
 
-## Conditional statements 
+### Conditional statements 
 
-## Functions
+### loops
 
-## Arrays
+### Functions
 
-## Recursion
+### Arrays
+
+### Recursion
 
 ## Numpy Arrays 
