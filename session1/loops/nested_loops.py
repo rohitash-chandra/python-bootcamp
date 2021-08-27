@@ -11,7 +11,7 @@ def nested_loops():
 
   length = 3
   width = 4
-  height = 3
+  height = 5
 
   two_dimen = np.random.rand(length, width)
   print(two_dimen)
@@ -26,19 +26,20 @@ def nested_loops():
 
   print(three_dimen)
 
-  for i in range(length):
-    for j in range(width):
-      two_dimen[i,j] = i*j
-
+  for i in range(length):         #0
+    for j in range(width):        #0 1 2 3
+      two_dimen[i,j] = i*j        #1
+                                  #0 1 2 3
   print (two_dimen)  
 
       #print (k, end =' ')  # end refers new line
   print (' 3 nested ')
-  for i in range(1,3):
+  for i in range(1,3):                  
     for j in range(1,3):
       for k in range(1,3):
         z = i*j * k
         print (z)  # end refers new line 
+
 
   print (' 3 nested save to np array ')
 
@@ -46,10 +47,49 @@ def nested_loops():
     for j in range(width):
       for k in range(height):
         three_dimen[i,j,k] = i*j * k
-  print(three_dimen)
+  print(three_dimen, ' ** ')
 
+  last_two_rows = three_dimen[2,2:4,3:5]
+
+  print(last_two_rows, ' **** ')
   #operations to select parts of 2d array
          
+
+# i is your mat
+# j is your row
+# k is your col
+
+# 0 is mat
+# 0 is row
+# 0 1 2 3 is col
+
+# 0 is mat
+# 1 is row
+# 0 1 2 3 is col
+
+
+# 0 is mat
+# 2 is row
+# 0 1 2 3 is col
+
+
+# 0 is mat
+# 3 is row
+# 0 1 2 3 is col
+
+
+# 1 is mat
+# 0 is row
+# 0 1 2 3 is col
+
+# 1 is mat
+# 1 is row
+# 0 1 2 3 is col
+
+
+
+
+
  
 def main(): 
 
