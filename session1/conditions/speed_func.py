@@ -12,8 +12,8 @@ def speed_function_advanced(speed, provisonal): # example of function with retur
 
     print(provisonal, ' is provisional')
         
-    if (speed < 80):
-        print(" speed is ok.")
+    if (speed < 80) :
+        print(" speed is ok.") 
 
     elif ((speed >= 80) and (speed < 100)) and (provisonal==True):
         base_fine = 500
@@ -47,16 +47,20 @@ def speed_function_advanced(speed, provisonal): # example of function with retur
 def main():
     print("Check speed of a vehicle and give fine!")
 
-    speed = int(input("Enter speed in km/hr for simple function:  "))
+    #speed = int(input("Enter speed in km/hr for simple function:  "))
 
-    speed_function_simple(speed)
+    #speed_function_simple(speed)
 
 
     speed_adv = int(input("Enter speed in km/hr for advanced function:  "))
 
 
-    provisional = bool(input("Are you having a provisional licence? "))
-    
+    licence = input("Are you having a provisional licence? ")
+
+    if licence == 'yes' or licence == 'Yes':
+        provisional = True
+    else:
+        provisional = False
 
 
     fine = speed_function_advanced(speed_adv, provisional)
