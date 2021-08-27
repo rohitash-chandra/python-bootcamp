@@ -106,6 +106,6 @@ print("5: {}".format(results[3]))
 
 # Can you use functions to do this?
 
-# Can you use a stack of coins,  eg 10 coins of each denominations each ?
+# Can you use a stack of coins,  eg 10 coins of each denomination each ?
 
 # Can you simulate an old cashier machine at the supermarket?
