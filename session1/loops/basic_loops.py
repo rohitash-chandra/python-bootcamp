@@ -37,6 +37,7 @@ sum = 0
 # iterate over the list
 for val in numbers:
     sum = sum+val
+    print(sum, ' print sum')
 
 print("The sum is", sum)
 
@@ -49,6 +50,8 @@ print( 'print each fruit in a fruit list ')
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
+
+print(fruits)
 
 
 print( ' exit the loop when x is "banana", but this time the break comes before the print')
@@ -64,13 +67,13 @@ for x in fruits:
 
 # Powers of 2 (for no obvious reason)
 power = 1
-for y in range(0,21):
+for y in range(0 ,21, 4):
     print("2 to the", y, "is", power)
     power = 2 * power
     
 # Scanning a list.
 fred = ['And', 'now', 'for', 'something', 'completely', 'different.'];
-for i in range(0,len(fred)):
+for i in range(0,len(fred),2):
     print(i, fred[i])
 
 
@@ -87,7 +90,9 @@ print(range(5, 10))
 
 # Range works with for to create the traditional for loop.
 for y in range(2, 10):
-    print(y,end=' ')
+    print(y)
+
+    
 print()
 
 for y in range(2, 10, 2):
