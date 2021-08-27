@@ -46,6 +46,6 @@ The resources from this bootcamp is part of  the [Transitional Artificial Intell
 
 ## Citation and Usage
 
-* R. Chandra, C. W. Omlin, "Python Programming Bootcamp", Transitional Artifical Intelligence Research Group, Sydney, Australia, 2021: https://github.com/rohitash-chandra/python-bootcamp
-* We encourage educators (Lecturerers and Teachers) to use the videos and code/exercises from this bootcamp in their classes or websites. Please cite as needed. Please contact R. Chandra if you wish to extend this further or if any aissistance is needed. 
+* R. Chandra, and C. W. Omlin, "Python Programming Bootcamp", Transitional Artifical Intelligence Research Group, Sydney, Australia, 2021: https://github.com/rohitash-chandra/python-bootcamp
+* We encourage educators (University Lecturers and Primary-Secondary school Teachers) to use the videos and code/exercises from this bootcamp in their classes or websites and cite as needed. Please contact R. Chandra if you wish to extend this further or if any aissistance is needed. 
 
