@@ -22,3 +22,10 @@ BMI, BMI_status = bmi(float(height), float(weight))
 print('Hi ',name,'.')
 print('Your height is ',height,' and weight is ',weight,'.')
 print('Your BMI is ', BMI, ' and you are ', BMI_status,'.')
+
+
+# comments
+'''commenting
+Oh dear
+this is so long
+'''
