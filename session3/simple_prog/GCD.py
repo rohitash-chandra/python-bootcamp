@@ -16,13 +16,21 @@ def compute_hcf(x, y):
     else:
         smaller = x
     for i in range(1, smaller+1):
+        print(i, smaller)
         if((x % i == 0) and (y % i == 0)):
             hcf = i 
+            print(hcf, ' hcf ')
     return hcf
 
 num1 = 54 
 num2 = 24
 
+
+
+hcf = compute_hcf(num1, num2)
+
+
+print("The HCF is", hcf)
 
 
 #In this algorithm, we divide the greater by smaller and take the remainder. 
