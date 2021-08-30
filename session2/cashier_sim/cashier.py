@@ -7,7 +7,7 @@ amount = input("Enter the amount of change owed: ")
 amount = int(amount)
 
 
-num_coins = [5, 5, 5, 5]
+num_coins = [0, 5, 5, 5]
 
 coins = [25, 10, 5, 1]
 results = []
