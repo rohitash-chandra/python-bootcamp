@@ -12,6 +12,7 @@ def bubbleSort(arr):
   
         # Last i elements are already in place
         for j in range(0, n-i-1):
+            print(i, j, n-i-1, ' *', arr[j], arr[j + 1])
   
             # traverse the array from 0 to n-i-1
             # Swap if the element found is greater
@@ -22,6 +23,11 @@ def bubbleSort(arr):
 # Driver code to test above
 arr = [64, 34, 25, 12, 22, 11, 90]
   
+# 0 
+# 0 1 2
+# 34 64 25 12 22 11 90
+#
+
 bubbleSort(arr)
   
 print ("Sorted array is:")

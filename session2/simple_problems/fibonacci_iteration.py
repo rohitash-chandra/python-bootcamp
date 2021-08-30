@@ -26,3 +26,9 @@ else:
        n1 = n2
        n2 = nth
        count += 1
+
+
+# 1. Change above code using a for loop and implement a fib_iteration function
+
+# 2. Develop a program, which has both recursion and iteration functions.
+#  Then run experiments for large fib values compare the time.

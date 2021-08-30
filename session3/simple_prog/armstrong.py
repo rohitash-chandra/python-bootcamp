@@ -6,10 +6,39 @@
 
 # 153 = 1*1*1 + 5*5*5 + 3*3*3  // 153 is an Armstrong number.
 
+#. ie. 153 = (1 ^ 3) + (5 ^ 3) + (3 ^ 3)
 
 
-lower = 153
-upper = 154
+lower = 1
+upper = 2000
+
+
+
+
+num = 153
+
+temp = num
+order = len(str(num))
+digit = temp % 10
+print(order, digit, digit ** order, ' * *' )
+temp //= 10
+print(temp, ' * * *' )
+
+
+ 
+order = len(str(num))
+digit = temp % 10
+print(order, digit, digit ** order, ' * *' )
+temp //= 10
+print(temp, ' * * *' )
+
+
+
+order = len(str(num))
+digit = temp % 10
+print(order, digit, digit ** order, ' * *' )
+temp //= 10
+print(temp, ' * * *' )
 
 # 10
 
@@ -30,7 +59,10 @@ for num in range(lower, upper + 1):
        digit = temp % 10
        sum += digit ** order
        temp //= 10
-       print(digit, sum, temp )
+       #print(digit, sum, temp )
 
    if num == sum:
        print(num)
+
+
+
