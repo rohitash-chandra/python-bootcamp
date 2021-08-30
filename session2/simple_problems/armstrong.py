@@ -8,8 +8,14 @@
 
 
 
-lower = 100
-upper = 2000
+lower = 153
+upper = 154
+
+# 10
+
+# order is 2
+
+#temp = 10
 
 for num in range(lower, upper + 1):
 
@@ -24,6 +30,7 @@ for num in range(lower, upper + 1):
        digit = temp % 10
        sum += digit ** order
        temp //= 10
+       print(digit, sum, temp )
 
    if num == sum:
        print(num)

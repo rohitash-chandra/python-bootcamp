@@ -28,3 +28,12 @@ for i in range(len(arr)):
     print ("% d" % arr[i])
  
 # This code is contributed by Mohit Kumra
+
+
+# Exercise. Implement bubble sort and insertion sort as functions. for large list of values in range [0-100], eg. 1000, 2000, 3000, 4000
+#report the time and compare both functions. Run 30 experiments for each case. 
+
+# Further exercise - study merge and quicksort and compare them with above.
+
+
+
