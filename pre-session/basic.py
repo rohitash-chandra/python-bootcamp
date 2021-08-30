@@ -1,19 +1,19 @@
-number = 6677  # integer 
+number = 123  # integer 
  
-number_decimal = 18.6 #cpp or java double or float
+number_decimal = .123 #cpp or java double or float
 
-height = 1.8
+height = 1.73
 
-name = ' Rohitash Chandra'  # string
+name = 'Hakiim Jamaluddin'  # string
 
 print(number)
-print(number, ' is number')
+print(number, 'is number')
 print(number_decimal, ' is decimal ')
-print(height,'               is height ')
+print(height,'is height ')
 print(name)
-print(name, ' is my name')
+print(name,'is my name')
 
-print(' lets calculate')
+print('lets calculate')
 
 
 radius = 12.25
@@ -41,3 +41,4 @@ area_triangle = 0.5 * int(base) * int(height)
 
 
 print(area_triangle,  ' is the area of the triangle')
+
