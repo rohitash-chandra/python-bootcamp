@@ -34,6 +34,10 @@ def numpy_design(filename):
   #a = np.zeros((10,10))
 
   b = np.random.rand(10,10)
+
+  #len(list_name) in py list 
+
+  #b.shape[1]
  
   for x in range(1, b.shape[0]):
     for y in range(1, b.shape[1], 2):

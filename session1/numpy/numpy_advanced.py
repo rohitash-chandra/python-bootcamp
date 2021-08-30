@@ -23,6 +23,9 @@ def advanced_numpy():
   a = np.array([1, 2, 3])
   b = np.array([2, 3, 4])
 
+  print(a, ' is a')
+  print(b, 'is b')
+
   vertical_stack = np.vstack((a,b))
   print(vertical_stack, '  vertical_stack')
 

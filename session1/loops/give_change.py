@@ -6,24 +6,24 @@
 
 amount = 75
 
-change = int(amount/50)
-amount = amount%50
+change = int(amount/50)  # 1.5   # 1 
+amount = amount%50       #  25
 
 print(change, amount)
 
-change = int(amount/20)
-amount = amount%20
+change = int(amount/20)   #1.25  #  1
+amount = amount%20        # 5
 
 print(change, amount)
 
-change = int(amount/10)
-amount = amount%10
+change = int(amount/10)  # 0.5   # 0
+amount = amount%10    #  5
 
 print(change, amount)
 
 
-change = int(amount/5)
-amount = amount%5
+change = int(amount/5)  # 1
+amount = amount%5    #  0
 
 print(change, amount)
 
