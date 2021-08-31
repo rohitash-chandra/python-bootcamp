@@ -1,6 +1,6 @@
 import csv
 
-with open('Maze.csv') as csvfile:
+with open('Kelvin Maze.csv') as csvfile:
     Maze = list(csv.reader(csvfile, delimiter = ','))
 
 #Duplicate Maze for Solutions
@@ -11,6 +11,7 @@ Sol = Maze
 # C represents checked path
 # S represents start
 # G represents goal
+# A represents answer (for output purposes)
 
 
 def find_path(x, y):
@@ -46,6 +47,6 @@ for r in range(len(Maze)):
 
 find_path(startx, starty)
 
-with open('Solution.csv', 'w', newline = '') as csvfile:
+with open('Kelvin Solution.csv', 'w', newline = '') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(Sol)
