@@ -6,7 +6,7 @@
 
 # while loop 
 
-print(' basic while loop ')
+'''print(' basic while loop ')
 
 i = 1
 while i < 6:
@@ -60,12 +60,15 @@ fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   if x == "banana":
     break
-  print(x)
+  print(x)'''
 
 
 
 
 # Powers of 2 (for no obvious reason)
+from _typeshed import StrPath
+
+
 power = 1
 for y in range(0 ,21, 4):
     print("2 to the", y, "is", power)
@@ -103,4 +106,13 @@ for y in range(20, 10, -1):
     print(y,end=' ')
 print()
 
+#### SUMMARY ####
 
+'''for i in range(start, end_plus_one, increment_if_not_one):
+      p = x*w
+      print('p is ',p)'''
+
+'''i = start
+while i < end_plus_one:
+  p = x*w
+  print('p is ',p)'''

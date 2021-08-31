@@ -16,10 +16,7 @@ def factorial(x):
         fact = x * factorial(x-1)
         #print(x, fact, ' is fact')
         return fact
-        
-
-
-
+ 
 def factorial_iteration(num):
     fac = 1
  
@@ -61,4 +58,13 @@ print("The factorial using ITERATION of", num, "is", fact_iteration)
 
 print('ITERATION took time: ', end - start)
 
+'''SUMMARY
+to compute time taken
+import time
+start = time.time()
+OPERATIONS
+end = time.time()
+time_difference = end - start
 
+# Not sure factorial and recursion are useful in my works
+'''
