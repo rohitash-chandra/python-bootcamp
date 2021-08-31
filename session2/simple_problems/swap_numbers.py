@@ -10,7 +10,10 @@ x = input('Enter value of x: ')
 y = input('Enter value of y: ')
 
 # create a temporary variable and swap the values
+
+#12
 temp = x
+#15
 x = y
 y = temp
 
