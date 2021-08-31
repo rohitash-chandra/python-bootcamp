@@ -37,7 +37,7 @@ def a2bprimes(a, b):
 
 def primefac(n):
     print(n, '= ', end = '')
-    for k in range(2, int(n**0.5)+1):
+    for k in range(2, int((n+1)/2):
         while n%k == 0:
             n = n/k
             print(k, end = '')
