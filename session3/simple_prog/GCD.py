@@ -7,12 +7,15 @@
  
 # Python program to find H.C.F of two numbers
 
+# GCD of 24 and 6 
+# 6 ?
+
 # define a function
 def compute_hcf(x, y):
 
 # choose the smaller number
     if x > y:
-        smaller = y
+        smaller = y  # in case of 24 and 6, 6 is smaller
     else:
         smaller = x
     for i in range(1, smaller+1):
@@ -22,8 +25,12 @@ def compute_hcf(x, y):
             print(hcf, ' hcf ')
     return hcf
 
-num1 = 54 
-num2 = 24
+
+
+
+
+num1 = 24 
+num2 = 6
 
 
 
