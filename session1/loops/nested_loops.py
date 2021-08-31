@@ -100,3 +100,34 @@ def main():
  
 if __name__ == '__main__':
     main()
+
+
+
+#### SUMMARY ####
+# python coding convention
+'''
+import a
+import b
+import c
+
+def function1(x,w):
+      p = x*w
+      return(p)
+
+def main():
+      write like the main in R
+      print('p is ',p)
+
+if__name__=='__main__':
+    main()
+
+# extra (indexing)
+three_dimen[2,2:4,:]
+vector[i]
+len(vector)
+# pandas data.frame
+nrow() = len(dt.index)
+ncol() = len(dt.columns)
+'''
+
+
