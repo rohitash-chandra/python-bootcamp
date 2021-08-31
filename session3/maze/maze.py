@@ -84,6 +84,9 @@ if __name__ == "__main__":
              [0, 1, 0, 0],
              [1, 1, 1, 1] ]
 
+   # can go [0,0]
+   #cant go [0,1]
+
    print(maze)
               
    solveMaze(maze)

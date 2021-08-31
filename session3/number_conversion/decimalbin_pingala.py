@@ -41,9 +41,22 @@ Final Conversion -: (1 * 2^3) + (0 * 2^2) +
 def decimal_binary(num):  # using recursion
      
     if num >= 1:
-        decimal_binary(num // 2)
+        decimal_binary(num // 2) 
     print(num % 2, end = '')
 
+# 9/2 = 4
+# 9 % 2 = 1
+
+# 4/2 = 2
+# 4%2 = 0
+
+# 2/2 = 1
+# 2%2 = 0
+
+# 1/2 = 0
+# 1%2 = 1
+
+# 1001
 
 
 def decimal_binary_iter(num):
@@ -71,11 +84,15 @@ def binary_decimal(binary):
         dec = binary % 10
         decimal = decimal + dec * pow(2, i)
         binary = binary//10
+        print(dec, decimal, binary, ' * + ')
         i += 1
     print(decimal)   
      
+#1001 = 1*2^3 + 0*2^2 + 0*2^1 + 1*2^0
 
 
+#octa decimal numbers (base 8)
+#hex decimal (base 16)
  
 # Driver Code
 if __name__ == '__main__':
@@ -91,12 +108,22 @@ if __name__ == '__main__':
     binary = decimal_binary_iter(dec_val)
 
 
+
+
     print('The binary no. for %d is %s'%(dec_val, binary))
 
     print('now convet binary to decimal')
 
-    binary_decimal(100) 
-    binary_decimal(1001)
+    binary_decimal(int(binary)) 
+
+
+    binary_decimal(100111)
+
+    # 1  1
+    # 10 2
+    # 100 4
+    # 1000 ?
+    # 100000  32
 
 
 

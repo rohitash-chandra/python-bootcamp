@@ -7,7 +7,42 @@ num_coins = [5, 1, 0, 5, 5, 5]
 coins = [200, 100, 50, 20, 10, 5]
 give_coins = [0, 0, 0, 0, 0, 0]
 
+
+item_price = [75, 120, 120, 100, 150, 95, 110, 50, 120 ]
+num_items  = [10, 10, 10, 10, 10, 10, 10, 10, 10 ] 
+item_name = ['coke', 'water']
+
 # global definitions
+
+def print_confidentialinfor():
+
+    print(num_coins, ' num coins')
+
+    print(num_items, ' num items')
+
+
+def show_menu(): # make this nice
+    
+    print(item_name, ' item list')
+    print(num_items, ' num items')
+    print(item_price, ' num items')
+
+def make_selection():
+    show_menu()
+    # ask the user to enter items 
+
+    # 1123  
+    #for or while using mod and div
+    # 1 1 2 3 (index)
+
+    # refr item list and price
+
+    sum = 0
+    #while loop or for loop
+        #sum = sum +  item_price[index-1]
+
+
+    return sum
 
 
 
