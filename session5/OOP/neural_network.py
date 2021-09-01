@@ -82,7 +82,9 @@ class Network:
 
 	def print_network(self):
 
-		for n in range(0, self.end_index+1):  
+		for n in range(1, self.end_index+1):  
+			#note layer 0 weights and biases are not needed. 
+			print(n, ' is layer')
 			print(n, self.layer[n].output)
 			print(n, self.layer[n].weights)
  
@@ -212,9 +214,12 @@ def main():
 
 	hidden = 5 # let user decide for prob
  
-	topo = [input_features,   hidden, hidden,  num_outputs] # works
+	#topo = [input_features,   hidden, hidden,  num_outputs] 
 
-	max_time = 5  # how many epochs needed for training the neural network
+
+	topo = [input_features,    hidden,  num_outputs] 
+
+	max_time = 1 # how many epochs needed for training the neural network
 
 	min_criteria = 0.01 # minumum error on training data (to stop early )
 
