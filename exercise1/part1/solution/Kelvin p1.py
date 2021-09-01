@@ -8,8 +8,8 @@ def find_age():
         find_age()
     else:
         today = date.today().strftime('%Y%m%d')
-        birthdate = birthinput[4:9]+birthinput[2:4]+birthinput[0:2]
-        age = int((int(today)-int(birthdate))/10000)
+        birthdate = birthinput[4:9]+birthinput[2:4]+birthinput[0:2]             #Use YYYYMMDD to prioritise year, then month, then day
+        age = int((int(today)-int(birthdate))/10000)                            #eg 20210101 - 20200101 = 10000 > 0 so 20210101 is a later date
         print('Your age is ', age, '.', end = ' ')
         if age > 18:
             print('Using adult BMI classification.')
@@ -19,12 +19,12 @@ def find_age():
 
 def find_height():
     print('Would you like to input your height in metres, or feet and inches?')
-    unit = input('Enter m for metres or f for feet and inches here: ')
+    unit = input('Enter m for metres or f for feet and inches here: ')                                               #Ask for unit of input   
     if unit == 'm':
         height = float(input('Please enter your height in metres up to two decimal places. (eg. 1.78): '))
     elif unit == 'f':
         heightinput = input('Please enter your height in feet and nearest inch, separated by \'. (eg. 5\'7): ')      #Just going to trust they entered it correctly
-        feet_inch = heightinput.split(sep = '\'')
+        feet_inch = heightinput.split(sep = '\'')                                                                    #Find the ' and split the numbers into 2
         height = float(feet_inch[0])*0.3048 + float(feet_inch[1])*0.0254
     else:
         find_height()
@@ -40,14 +40,13 @@ def calc_BMI(weight, height):
     return BMI
 
 def calc_class(BMI, age):
-    adult_classes = np.array([16.00, 17.00, 18.50, 25.00, 30.00, 35.00, 40.00])
+    adult_classes = np.array([16.00, 17.00, 18.50, 25.00, 30.00, 35.00, 40.00])             #Use elementwise comparison then count the number of True
     child_classes = np.array([20.00, 29.00, 32.00])
-    child_class = sum(BMI > child_classes)
     if age > 18:
-        group = sum(BMI > adult_classes)
-        if group < 3:
+        group = sum(BMI > adult_classes)                                                    #How many cutoffs is the BMI greater than? ranges from 0 to 8 (9 choices)
+        if group < 3:                                                                       #Main class
             print('Your classification is Underweight', end = ' ')
-            if group == 0:
+            if group == 0:                                                                  #Sub classes
                 print('with subclassification Severe thinness.')
             elif group == 1:
                 print('with subclassification Moderate thinness.')
