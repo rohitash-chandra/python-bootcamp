@@ -25,6 +25,7 @@ while(num>0):
     dig=num%10
     rev=rev*10+dig
     num=num//10
+    print(dig, rev, num, ' * ')
 if(temp==rev):
     print("The number is palindrome!")
 else:
@@ -32,10 +33,21 @@ else:
 
 
 
-
-
 string=input(("Enter a string:"))
 
+print(string, ' is entered')
+
+for i in range(0, len(string) ):
+    print(i, string[i],  ' ***')
+
+backwards = string
+
+j = 0
+for i in range(len(string)-1, 0, -1 ):
+    #backwards[j] = string[i]
+    print(i,j, string[i],   ' **')
+    j+=1
+ 
 print(' reverse of what you entered  ', string[::-1])
 if(string==string[::-1]):
       print("The string is a palindrome")
@@ -63,6 +75,15 @@ def isPalindrome(s):
  
 # main function
 s = "malayalam"
+ans = isPalindrome(s)
+ 
+if (ans):
+    print("Yes")
+else:
+    print("No")
+
+# main function
+s = "tamil"
 ans = isPalindrome(s)
  
 if (ans):

@@ -6,11 +6,12 @@
 # if a string is palindrome
 # or not
  
-x = "malayalam"
+x = "malayalam movies"
  
 w = ""
 for i in x:
     w = i + w
+    print(w, ' *')
  
 if (x == w):
     print("Yes")
@@ -21,10 +22,12 @@ else:
 # Python program to check
 # if a string is palindrome
 # or not
-st = 'tenet'
+st = 'tennnxnnet'
 j = -1
 flag = 0
 for i in st:
+    print(i, st[j], '   *** ')
+
     if i != st[j]:
       j = j - 1
       flag = 1
