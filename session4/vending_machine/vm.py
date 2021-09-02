@@ -28,13 +28,12 @@ def show_menu(): # make this nice
 def make_selection():
     show_menu()
     # ask the user to enter items 
+ 
+    selection = input(' select items by using item ID, eg. 1123 would mean 2 coke and 1 water ')
+ 
+    selection = int(selection) 
 
-
-    print(' select items by using item ID, eg. 1123 would mean 2 coke and 1 water  ')
-
-
-
-    input("Enter item IDs ' eg 112221: ", selection  ) 
+    print(' confirming your selection: ', selection)
 
     # 1123  
     #for or while using mod and div
