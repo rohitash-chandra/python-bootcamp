@@ -35,6 +35,22 @@ def make_selection():
 
     print(' confirming your selection: ', selection)
 
+    sum_items = 0
+
+    temp = selection
+    while temp > 0:
+        digit = temp % 10 
+
+
+
+        temp //= 10
+
+        print(digit,   temp, sum_items )
+    
+    print(sum_items, ' sum items')
+
+
+
     # 1123  
     #for or while using mod and div
     # 1 1 2 3 (index)
