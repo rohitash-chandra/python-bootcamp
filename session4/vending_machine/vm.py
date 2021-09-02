@@ -40,29 +40,12 @@ def make_selection():
     temp = selection
     while temp > 0:
         digit = temp % 10 
-
-
-
+        sum_items += item_price[digit-1]
         temp //= 10
-
-        print(digit,   temp, sum_items )
-    
+        print(digit,   item_price[digit], sum_items )
     print(sum_items, ' sum items')
 
-
-
-    # 1123  
-    #for or while using mod and div
-    # 1 1 2 3 (index)
-
-    # refr item list and price
-
-    sum = 0
-    #while loop or for loop
-        #sum = sum +  item_price[index-1]
-
-
-    return sum
+    return sum_items
 
 
 
@@ -102,17 +85,19 @@ def main():
     print(' here is a list of items, including number of items and price ')
 
 
-    make_selection()
+    total_cost = make_selection()
 
-        
-    # assune you selected items with following cost:
-    cost = 75
+    cost = total_cost
 
     print("Pay :", cost  ) 
     
     change = get_money(cost)
     if change > 0:
         give_change(change)
+        #update item list
+        
+        #total_cost = make_selection()
+
     else: 
         print(' you have not given enough')
  
