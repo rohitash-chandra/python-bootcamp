@@ -10,7 +10,7 @@ give_coins = [0, 0, 0, 0, 0, 0]
 
 item_price = [75, 120, 120, 100, 150, 95, 110, 50, 120 ]
 num_items  = [10, 10, 10, 10, 10, 10, 10, 10, 10 ] 
-item_name = ['coke', 'water']
+item_name = ['water', 'coke', 'diet coke', 'iced tea', 'swiss choc', 'candy', 'chips', 'bubble gum', 'turkish delight']
 
 # global definitions
 
@@ -22,14 +22,19 @@ def print_confidentialinfor():
 
 
 def show_menu(): # make this nice
-    
-    print(item_name, ' item list')
-    print(num_items, ' num items')
-    print(item_price, ' num items')
+    for i in range(len(num_items)):
+        print(i+1, ':', item_name[i], ' | ', num_items[i], ' | ', item_price[i], ' cents') 
 
 def make_selection():
     show_menu()
     # ask the user to enter items 
+
+
+    print(' select items by using item ID, eg. 1123 would mean 2 coke and 1 water  ')
+
+
+
+    input("Enter item IDs ' eg 112221: ", selection  ) 
 
     # 1123  
     #for or while using mod and div
@@ -74,7 +79,16 @@ def get_money(cost):
 
 def main(): 
 
+
     print(' lets simulate a cashier machine ')
+
+
+
+    print(' here is a list of items, including number of items and price ')
+
+
+    make_selection()
+
         
     # assune you selected items with following cost:
     cost = 75
