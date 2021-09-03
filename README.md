@@ -28,6 +28,11 @@ The goal of this bootcamp is to enable algorithmic thinking and problem solving 
 * 			Tuesday  7th September, No class (work on Exercise 4)
 * [Session 7](session7): Wednesday: 8th September, 11am to 1pm:   Software design (Solution to  Exercise 4 )
 
+## Exercise Solutions
+* Hilary Ann: https://github.com/HilaryAnn/Python-bootcamp
+* Karlos Tan: (solution folder in respective exercise)
+* Michael Horton: https://github.com/mhorton73/Vending-Machine-program (Vending Machine with OOP)
+
 ## Resources
 * Software: Anaconda (Python 3.0) and Visual Studio Code:https://code.visualstudio.com/
 * Github repo: https://github.com/rohitash-chandra/python-bootcamp
