@@ -11,7 +11,44 @@ from numpy.random import seed
 
 # objective function
 def objective(x):
-	return x[0]**2.0
+	return x[0]**2.0   # y = x*x      y= y^2 
+
+
+def objective_func(x):
+	sum = 0
+
+	for i in range(len(x)):
+		sum+= x[i]**2.0 
+	return  sum # y = x*x      y= y^2 
+
+
+
+for i in range(-5,5):
+	x= randn()
+	print(x, objective([x]), ' is the y - ') 
+
+
+
+
+print(objective_func([3, 2, 1, 2, 5]), ' is the y ') 
+
+
+#-0.6015083563080654 0.3618123027084306  is the y
+# make a neighbour
+
+
+x = -0.6015083563080654
+
+print(x, objective([x]), ' is the y *') 
+
+
+x = -0.6115083563080654
+
+print(x, objective([x]), ' is the y **') 
+
+
+
+
 
 # simulated annealing algorithm
 def simulated_annealing(objective, bounds, n_iterations, step_size, temp):

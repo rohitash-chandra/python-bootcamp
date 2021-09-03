@@ -164,4 +164,4 @@ if __name__ == "__main__":
 		a.calc_class()
  
 
- 
+ # think of a list of BMI
