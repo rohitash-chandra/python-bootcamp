@@ -41,6 +41,11 @@ def read_data():
     y_train = data_inputy[:-20]
     y_test = data_inputy[-20:] 
 
+
+    #percentage 
+    
+    #random data split
+
     return x_train, x_test, y_train, y_test
  
      

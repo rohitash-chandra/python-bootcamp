@@ -31,6 +31,7 @@ The goal of this bootcamp is to enable algorithmic thinking and problem solving 
 ## Exercise Solutions
 * Hilary Ann: https://github.com/HilaryAnn/Python-bootcamp
 * Karlos Tan: (solution folder in respective exercise)
+* Michael Horton: https://github.com/mhorton73/Vending-Machine-program (Vending Machine with OOP)
 
 ## Resources
 * Software: Anaconda (Python 3.0) and Visual Studio Code:https://code.visualstudio.com/
