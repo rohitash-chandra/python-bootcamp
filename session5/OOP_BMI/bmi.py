@@ -52,7 +52,7 @@ class Person:
 		self.weight_date.append(date)
 
 		
-	def find_age():
+	def find_age(self):
 		birthinput = input('Please enter your date of birth (DDMMYYYY): ')
 		if len(birthinput) != 8:
 			print('Entered date of birth invalid')
@@ -69,7 +69,7 @@ class Person:
 				
 			return age
 
-	def find_height():
+	def find_height(self):
 		print('Would you like to input your height in metres, or feet and inches?')
 		unit = input('Enter m for metres or f for feet and inches here: ')                                               #Ask for unit of input   
 		if unit == 'm':
@@ -82,7 +82,7 @@ class Person:
 			find_height()
 		return height
 
-	def find_weight():
+	def find_weight(self):
 		weight = float(input('Please enter your weight in kg. (eg. 53): '))                                             #Also going to trust they entered a number
 		return weight
 
