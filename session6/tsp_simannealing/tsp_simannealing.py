@@ -34,18 +34,38 @@ class tsp():
     def print_tsp(self):
         print(self.graph)
 
-
-    
-    '''def dist(self, xy):
+    def distance(self, route):
         # sequentially calculate distance between all tsp nodes
         dist = 0
-        for i in range(len(xy)-1): 
-            dist += self.dist_func(xy[i+1], xy[i])
+        for i in range(len(route)-1): 
+            current = route[i]
+            next = route[i+1]
+            print(current, next, dist, ' *  ')
+            dist += self.graph[current, next]
+        return dist
+
+    def generate_route(self):
+        # ensure that route is corrent - one city can be visted only once!
+
+        # route = [1,2,3,0] - corrent
+        # route = [1,2,3,2] - not correct - vising city 2 again!
+
+
  
-        
-        return dist'''
+    def sim_annealing(self):
+
+        route = [1,2,3,0]
+
+        #route_coordinates = [1,2,3,4,2,4,1,3]
+
+        dist = self.distance(route)
+
+        print(route, dist, ' route dist')
 
 
+
+
+#main
 
 graph = [[0, 10, 15, 20], [10, 0, 35, 25],
             [15, 35, 0, 30], [20, 25, 30, 0]]
@@ -53,6 +73,7 @@ graph = [[0, 10, 15, 20], [10, 0, 35, 25],
 
 mytsp = tsp(graph, 4)
 mytsp.print_tsp()
+mytsp.sim_annealing()
 
 
 

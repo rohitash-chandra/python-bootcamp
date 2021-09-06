@@ -13,42 +13,32 @@ from numpy.random import seed
 def objective(x):
 	return x[0]**2.0   # y = x*x      y= y^2 
 
-
-def objective_func(x):
+def objective_func(x): # vectorized version (more than 1 dimen)
 	sum = 0
 
 	for i in range(len(x)):
 		sum+= x[i]**2.0 
 	return  sum # y = x*x      y= y^2 
 
-
-
-for i in range(-5,5):
+'''for i in range(-5,5):
 	x= randn()
 	print(x, objective([x]), ' is the y - ') 
 
-
-
-
-print(objective_func([3, 2, 1, 2, 5]), ' is the y ') 
-
+print(objective_func([3, 4.9, 1, 2, -5]), ' is the y ') '''
 
 #-0.6015083563080654 0.3618123027084306  is the y
 # make a neighbour
 
-
-x = -0.6015083563080654
-
+'''x = -0.6015083563080654
 print(x, objective([x]), ' is the y *') 
 
 
 x = -0.6115083563080654
-
-print(x, objective([x]), ' is the y **') 
-
+print(x, objective([x]), ' is the y **') '''
 
 
-
+#[3.5]
+#[3.5, 3.1, 4.1]
 
 # simulated annealing algorithm
 def simulated_annealing(objective, bounds, n_iterations, step_size, temp):
@@ -59,6 +49,11 @@ def simulated_annealing(objective, bounds, n_iterations, step_size, temp):
 	# current working solution
 	curr, curr_eval = best, best_eval
 	# run the algorithm
+
+	count_better = 0
+
+	count_weaker = 0
+
 	for i in range(n_iterations):
 		# take a step
 		candidate = curr + randn(len(bounds)) * step_size
@@ -69,17 +64,29 @@ def simulated_annealing(objective, bounds, n_iterations, step_size, temp):
 			# store new best point
 			best, best_eval = candidate, candidate_eval
 			# report progress
-			print('>%d f(%s) = %.5f' % (i, best, best_eval))
+			print( i, count_better, t,  best, best_eval, ' * if best ')
+
+			count_better +=1
+
 		# difference between candidate and current point evaluation
 		diff = candidate_eval - curr_eval
 		# calculate temperature for current epoch
 		t = temp / float(i + 1)
 		# calculate metropolis acceptance criterion
 		metropolis = exp(-diff / t)
+
 		# check if we should keep the new point
 		if diff < 0 or rand() < metropolis:
 			# store the new current point
 			curr, curr_eval = candidate, candidate_eval
+			print( i, count_weaker, best, best_eval, t, diff, metropolis, ' accept weaker solution')
+
+			count_weaker +=1
+
+	print(count_better, count_weaker, ' counts')
+ 
+
+
 	return [best, best_eval]
 
 # seed the pseudorandom number generator
