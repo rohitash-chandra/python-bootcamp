@@ -68,6 +68,13 @@ def main():
 
     print(std_xtrain, ' std_xtrain')
 
+    cov = np.cov(x_train)
+
+    
+    print("Covarinace matrix of x:\n", cov)
+
+    #todo - write functions to implement mean, std, and cov from sctach using for loops and arrays
+
 
 
 if __name__ == '__main__':
