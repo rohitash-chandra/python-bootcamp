@@ -11,6 +11,10 @@ max_iters = 10000# Maximum number of iterations
 def df(x):
   return 4 * x ** 3 - 9 * x ** 2
 
+
+#main 
+
+
 for i in range(max_iters):
     current_x = next_x
     next_x = current_x - gamma * df(current_x)

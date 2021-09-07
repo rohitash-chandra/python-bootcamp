@@ -32,7 +32,7 @@ def read_data():
 
     #data_inputx = data_in[:,[1,2]]  # two features
 
-    data_inputy = data_in[:,-1] # this is target - so that last col is selected from data
+    data_inputy = data_in[:,4:6] # this is target - so that last col is selected from data
 
     x_train = data_inputx[:-20]
     x_test = data_inputx[-20:]
@@ -41,11 +41,12 @@ def read_data():
     y_train = data_inputy[:-20]
     y_test = data_inputy[-20:] 
 
+    # implement a function so that the training and test set are randomly picked
+
 
     #percentage 
     
-    #random data split
-
+    #random data split 
     return x_train, x_test, y_train, y_test
  
      
@@ -68,7 +69,7 @@ def main():
 
     print(std_xtrain, ' std_xtrain')
 
-    cov = np.cov(x_train)
+    cov = np.cov(x_train.T)
 
     
     print("Covarinace matrix of x:\n", cov)
