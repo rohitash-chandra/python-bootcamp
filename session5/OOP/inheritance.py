@@ -11,7 +11,7 @@ class Robot:
         print("My name is " + self.name)
 
 
-class Person:
+class Person(Robot): # example of Person inheriting elements from Robot
     def __init__(self, n, p, i):
         self.name = n
         self.personality = p
@@ -34,4 +34,6 @@ p1_robot_owned = r2
 
  
 
-p1_robot_owned.introduce_self()
+#p1_robot_owned.introduce_self()
+
+p1.introduce_self()  # inheritance example 
