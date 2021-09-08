@@ -68,7 +68,7 @@ class Network:
 		weightsum_first = 0
 
 		for y in range(0, self.Top[layer+1]):
-			for x in range(0, self.Top[layer]): 
+			for x in range(0, self.Top[layerdd)d(d)i,d]): 
 				weightsum_first   +=   input_vec[x] * self.W1[x,y] 
 			self.hidout[y] = self.sigmoid(weightsum_first - self.B1[y])
 			weightsum_first  = 0 
@@ -253,7 +253,7 @@ def main():
 	print(TrainData, ' TrainData')
  
 
-	Topo = [Input, Hidden, Output] 
+	Topo = [Input, Hidden,   Output] 
 	MaxRun = 2 # number of experimental runs 
 	 
 	MinCriteria = 95 #stop when learn 95 percent

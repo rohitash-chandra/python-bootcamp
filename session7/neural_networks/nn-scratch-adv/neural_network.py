@@ -217,7 +217,7 @@ def main():
 	#topo = [input_features,   hidden, hidden,  num_outputs] 
 
 
-	topo = [input_features,    hidden,  num_outputs] 
+	topo = [input_features,  hidden, hidden -2,  hidden,  num_outputs] 
 
 	max_time = 1 # how many epochs needed for training the neural network
 
