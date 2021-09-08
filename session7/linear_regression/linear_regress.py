@@ -33,10 +33,10 @@ def get_data():
     #print (data)
  
 
-    dataset = np.genfromtxt('processed_data/iris_train.csv',delimiter=',')   # when you have .csv  comma sepeated data  in file
+    #dataset = np.genfromtxt('processed_data/iris_train.csv',delimiter=',')   # when you have .csv  comma sepeated data  in file
     
     
-    print(dataset, ' iris_data')
+    #print(dataset, ' iris_data')
 
 
     # Load the diabetes dataset
@@ -122,7 +122,7 @@ def numpy_linear_mod(x_train, x_test, y_train, y_test):
 
 
     
-def scipy_linear_mod(x_train, x_test, y_train, y_test):
+def sklearn_linear_mod(x_train, x_test, y_train, y_test):
 
     print(' running scipy linear model')
 
@@ -164,7 +164,7 @@ def main():
     #print(y_train, ' y_train')
     #print(x_test, ' x_test')
 
-    scipy_linear_mod(x_train, x_test, y_train, y_test)
+    sklearn_linear_mod(x_train, x_test, y_train, y_test)
 
 
     x_train, x_test, y_train, y_test = generate_syntheticdata()
