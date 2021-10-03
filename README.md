@@ -58,9 +58,9 @@ The resources from this bootcamp is part of  the [Transitional Artificial Intell
 
 ## Reviews
 
-* (List of reviews)[reviews.md] 
+* [List of reviews](reviews.md)
 
 ## Certificate of participation
 
-* (List of participants)[certificate.md]
+* [List of participants](certificate.md)
 
