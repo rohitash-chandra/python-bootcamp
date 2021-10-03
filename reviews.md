@@ -1,6 +1,6 @@
 
 
-### Reviews by participnts
+### Reviews by participants
 
 * "Rohit as the instructor has definitely laid a good foundation of Python programming. Plus, TransAI making it available on their youtube channel surely benefit those who could not make it to the live session and the public! Incredible effort, congratulations!"
 
