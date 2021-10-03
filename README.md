@@ -49,8 +49,18 @@ The resources from this bootcamp is part of  the [Transitional Artificial Intell
 * Dr Pavel Krivitsky, UNSW Sydney (bootcamp planning and review)
 * Prof. Christian Omlin, University of Agder, Norway (development of certain worksheets and exercises)
 
+
+
 ## Citation and Usage
 
 * R. Chandra, and C. W. Omlin, "Python Programming Bootcamp", Transitional Artifical Intelligence Research Group, Sydney, Australia, 2021: https://github.com/rohitash-chandra/python-bootcamp
 * We encourage educators (University Lecturers and Primary-Secondary school Teachers) to use the videos and code/exercises from this bootcamp in their classes or websites and cite as needed. Please contact R. Chandra if you wish to extend this further or if any aissistance is needed. 
+
+## Reviews
+
+* (List of reviews)[reviews.md] 
+
+## Certificate of participation
+
+* (List of participants)[certificate.md]
 
