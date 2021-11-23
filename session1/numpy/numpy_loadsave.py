@@ -73,19 +73,6 @@ def load_file(filename):
   plt.savefig('design_magic_traspose.png')
   plt.clf() # make sure you have this in all plots
  
-   
-
- 
-
-
-
-
-
-
-
-
- 
-
 
 def main(): 
  
@@ -98,10 +85,17 @@ def main():
     plot_examples()
 
     load_file(filename)
- 
- 
-
-
 
 if __name__ == '__main__':
     main()
+
+
+'''SUMMARY
+ x = [1, 2, 3, 4]
+#numpy_x = 
+plt.plot(x)
+plt.ylabel('some numbers')
+#plt.show()
+plt.savefig('x.png')
+
+'''

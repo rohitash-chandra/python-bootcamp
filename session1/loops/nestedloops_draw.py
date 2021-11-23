@@ -8,7 +8,7 @@ for i in range(side):
     for i in range(side):
         print('*', end = '  ')
     print()
- 
+''' 
 i = 0
 print("Square Star Pattern - Nested While Loops") 
 
@@ -35,3 +35,4 @@ for i in range(m):
         print('*' if i in [j, m-1] or j == 0 else ' ', end='')
     print()
 
+''' 

@@ -86,3 +86,35 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+'''SUMMARY
+#vector
+a = np.array([1,2,3])
+b = np.array([1,2,3])
+vertical_stack = np.vstack((a,b)) #cbind()
+horizontal_stack = np.hstack((a,b)) #rbind
+
+#matrix
+a = np.array([1,2,3],[1,2,3])
+b = np.array([1,2,3],[1,2,3])
+
+ab = np.concatenate((a,b), axis = 0) becomes ([1,2,3],
+                                              [1,2,3],
+                                              [1,2,3],
+                                              [1,2,3])
+
+ab = np.concatenate((a,b), axis = None) becomes a vector
+
+# reshape
+object.reshape((nrow,ncol))
+
+# matrix change to vector 
+object.flatten()
+
+# indexing 
+object.shape[0] = nrow()
+object.shape[1] = ncol()
+
+# transpose
+np.transpose
+'''

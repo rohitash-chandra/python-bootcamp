@@ -1,43 +1,31 @@
-number = 6677  # integer 
- 
-number_decimal = 18.6 #cpp or java double or float
-
-height = 1.8
-
-name = ' Rohitash Chandra'  # string
-
-print(number)
-print(number, ' is number')
-print(number_decimal, ' is decimal ')
-print(height,'               is height ')
-print(name)
-print(name, ' is my name')
-
-print(' lets calculate')
-
-
-radius = 12.25
-pi = 3.14
-
-area_circle = pi * radius * radius 
-
-print(area_circle, ' is area of the circle')
-
-
-# triangle (ask the user for input)
-
-
-print('Good day mate. This program claculates area of triangle')
-
-print('please enter the base: ')
-base = input()
-
-print('please enter the height: ')
+print('Your name?')
+name = input()
+print('Your height (m)?')
 height = input()
+print('Your weight (kg)?')
+weight = input()
 
-print(base, height,  ' are the base and height, respectively')
+def bmi (h,w):
+    bmi = w/(h*h)
+    if bmi < 18.5: 
+        bmi_status = 'underweight'
+    elif bmi >= 18.5 and bmi < 25: 
+            bmi_status = 'normal'
+    elif bmi >= 25 and bmi < 30: 
+            bmi_status = 'overweight'
+    elif bmi >= 30: 
+            bmi_status = 'obese'
+    return(bmi, bmi_status)
 
-area_triangle = 0.5 * int(base) * int(height)
+BMI, BMI_status = bmi(float(height), float(weight))
+
+print('Hi ',name,'.')
+print('Your height is ',height,' and weight is ',weight,'.')
+print('Your BMI is ', BMI, ' and you are ', BMI_status,'.')
 
 
-print(area_triangle,  ' is the area of the triangle')
+# comments
+'''commenting
+Oh dear
+this is so long
+'''

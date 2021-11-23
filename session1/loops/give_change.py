@@ -109,3 +109,11 @@ print("5: {}".format(results[3]))
 # Can you use a stack of coins,  eg 10 coins of each denomination each ?
 
 # Can you simulate an old cashier machine at the supermarket?
+
+
+'''SUMMARY
+# rounding
+int(1.5) = 1
+# remainder
+25%20 = 5 
+'''
